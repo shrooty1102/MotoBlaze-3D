@@ -1,0 +1,8 @@
+{
+  "appId": "com.motoblaze3d.game",
+  "appName": "MotoBlaze 3D",
+  "webDir": "dist",
+  "android": {
+    "backgroundColor": "#0b1020"
+  }
+}
