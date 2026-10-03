@@ -13,7 +13,7 @@
     "preview": "vite preview --host",
     "icons": "node scripts/make-icons.mjs",
     "electron": "vite build && electron .",
-    "dist:win": "vite build && electron-builder --win",
+    "dist:win": "vite build && electron-builder --win --publish never",
     "android:sync": "vite build && npx cap sync android",
     "android:open": "npx cap open android"
   },
